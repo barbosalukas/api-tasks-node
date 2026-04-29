@@ -39,23 +39,22 @@ API REST para gerenciamento de tarefas desenvolvida com Node.js puro, focada na 
 
 ## 📂 Estrutura
 
-
+```
 src/
 ├── server.js
 ├── routes.js
 ├── database.js
 ├── middleware/
-│ └── json.js
+│   └── json.js
 └── utils/
-├── build-route-path.js
-└── extract-query-params.js
+    ├── build-route-path.js
+    └── extract-query-params.js
 
 import-csv.js
 tasks.csv
 package.json
 package-lock.json
-
-
+```
 ---
 
 ## ▶️ Como rodar o projeto
@@ -63,23 +62,37 @@ package-lock.json
 ```bash
 npm install
 npm run dev
+```
 
 Servidor rodando em:
 
+```
 http://localhost:3333
-📡 Endpoints
-POST /tasks → Criar tarefa
-GET /tasks → Listar tarefas
-PUT /tasks/:id → Atualizar tarefa
-DELETE /tasks/:id → Deletar tarefa
-📥 Importação via CSV
+```
+
+---
+
+## 📡 Endpoints
+
+- **POST /tasks** → Criar tarefa  
+- **GET /tasks** → Listar tarefas  
+- **PUT /tasks/:id** → Atualizar tarefa  
+- **DELETE /tasks/:id** → Deletar tarefa  
+
+---
+
+## 📥 Importação via CSV
+
+```bash
 node import-csv.js
-🎯 Objetivo
+```
+
+---
+
+## 🎯 Objetivo
 
 Projeto focado na prática de fundamentos de backend com Node.js, visando evolução técnica e consolidação de conceitos essenciais.
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Lukas Barbosa Oliveira
-
-docs: add README
