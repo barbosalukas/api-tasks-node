@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/barbosalukas/api-tasks-node/main/sua-imagem.png" alt="Task Manager API"/>
-</p>
-
-
 # 🚀 Task Manager API (Node.js)
 
 API REST para gerenciamento de tarefas desenvolvida com Node.js puro, focada na construção de fundamentos sólidos de backend sem uso de frameworks.
